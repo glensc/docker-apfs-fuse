@@ -24,3 +24,13 @@ To build for a different platform:
 ```shell
 docker buildx . -o out-arm --platform=linux/arm
 ```
+
+## Installing
+
+Copy the `apfsutil`, `apfs-fuse` files to target Linux, for example `/usr/local/bin`.
+
+And install dependeant libfuse library:
+
+```
+apt update && apt install libfuse3-3
+```
