@@ -22,7 +22,7 @@ The resulting binaries are copied to directory "out".
 To build for a different platform:
 
 ```shell
-docker buildx . -o out-arm --platform=linux/arm
+docker buildx build . -o out-arm --platform=linux/arm
 ```
 
 ## Installing
