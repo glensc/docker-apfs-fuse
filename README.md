@@ -29,7 +29,7 @@ docker buildx build . -o out-arm --platform=linux/arm
 
 Copy the `apfsutil`, `apfs-fuse` files to target Linux, for example `/usr/local/bin`.
 
-And install dependeant libfuse library:
+And install dependent libfuse library:
 
 ```
 apt update && apt install libfuse3-3
